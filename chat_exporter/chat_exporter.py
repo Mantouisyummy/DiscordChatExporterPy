@@ -102,7 +102,7 @@ async def export(
 async def raw_export(
     channel: discord.TextChannel,
     messages: List[discord.Message],
-    tz_info="UTC",
+    tz_info="Asia/Taipei",
     guild: Optional[discord.Guild] = None,
     bot: Optional[discord.Client] = None,
     military_time: Optional[bool] = False,
