@@ -224,7 +224,7 @@ class MessageConstruct:
             ("NAME_TAG", await discriminator(user.name, user.discriminator), PARSE_MODE_NONE),
             ("NAME", str(html.escape(user.display_name))),
             ("USER_COLOUR", user_colour, PARSE_MODE_NONE),
-            ("FILLER", "used ", PARSE_MODE_NONE),
+            ("FILLER", "已使用 ", PARSE_MODE_NONE),
             ("COMMAND", "/" + self.message.interaction.name, PARSE_MODE_NONE),
             ("USER_ID", str(user.id), PARSE_MODE_NONE),
             ("INTERACTION_ID", str(self.message.interaction.id), PARSE_MODE_NONE),
