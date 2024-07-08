@@ -9,7 +9,7 @@
 
 
 
-  <h2>DiscordChatExporterPy (Original By [Mahtoid](https://github.com/mahtoid/DiscordChatExporterPy), Big Thanks!)</h2>
+  <h2>DiscordChatExporterPy (Original By Mahtoid, Big Thanks!)</h2>
 
   <p>
     使用你的Discord機器人來輸出Discord的聊天訊息!
