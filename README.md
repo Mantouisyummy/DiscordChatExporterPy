@@ -8,40 +8,42 @@
 [![GPL License][license-shield]][license-url]
 
 
-  <h2>DiscordChatExporterPy</h2>
+
+  <h2>DiscordChatExporterPy (Original By [Mahtoid](https://github.com/mahtoid/DiscordChatExporterPy), Big Thanks!)</h2>
 
   <p>
-    Export Discord chats with your discord.py (or fork) bots!
-    Test.
+    使用你的Discord機器人來輸出Discord的聊天訊息!
     <br />
-    <a href="https://discord.mahto.id/">Join Discord</a>
+    <a href="https://github.com/mahtoid/DiscordChatExporterPy">原作者的庫</a>
     ·
-    <a href="https://github.com/mahtoid/DiscordChatExporterPy/issues/new?assignees=&labels=bug&template=bug-report.yml">Report Bug</a>
+    <a href="https://discord.mahto.id/">加入原作者 Discord</a>
     ·
-    <a href="https://github.com/mahtoid/DiscordChatExporterPy/issues/new?assignees=&labels=enhancement&template=feature-request.yml">Request Feature</a>
+    <a href="https://github.com/Mantouisyummy/DiscordChatExporterPy/issues/new?assignees=&labels=bug&template=bug-report.yml">和我們報告Bug</a>
+    ·
+    <a href="https://github.com/Mantouisyummy/DiscordChatExporterPy/issues/new?assignees=&labels=enhancement&template=feature-request.yml">請求新功能</a>
   </p>
 </div>
 
 ---
-## Installation
+## 安裝
 
-To install the library to your virtual environment, for bot usage, run the command:
-```sh 
-pip install chat-exporter
+若要安裝此套件，請在requirements.txt中加入以下內容:
+```txt
+git+https://github.com/Mantouisyummy/DiscordChatExporterPy.git
 ```
 
-To clone the repository locally, run the command:
+若想將此庫複製到本地, 運行以下命令:
 ```sh
-git clone https://github.com/mahtoid/DiscordChatExporterPy
+git clone https://github.com/Mantouisyummy/DiscordChatExporterPy
 ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">回到最頂部</a>)</p>
 
 ---
-## Usage
+## 如何使用
 
-There are currently 3 methods (functions) to `chat-exporter` which you can use to export your chat.<br/>
-_Expand the blocks below to learn the functions, arguments and usages._
+目前有 3 種方法可以使用此庫 (chat-exporter) 您可以使用他們來導出你的聊天紀錄<br/>
+_展開下方的選單來了解函數用法._
 <details><summary><b>Basic Usage</b></summary>
 
 `.quick_export()` is the simplest way of using chat-exporter.
@@ -462,13 +464,13 @@ It simply makes a request to the given URL and echos (prints) the content for yo
 <!-- LINK DUMP -->
 [pypi-version]: https://img.shields.io/pypi/v/chat-exporter?style=for-the-badge
 [pypi-url]: https://pypi.org/project/chat-exporter/
-[language-dom]: https://img.shields.io/github/languages/top/mahtoid/discordchatexporterpy?style=for-the-badge
-[forks-shield]: https://img.shields.io/github/forks/mahtoid/DiscordChatExporterPy?style=for-the-badge
-[forks-url]: https://github.com/mahtoid/DiscordChatExporterPy/
-[stars-shield]: https://img.shields.io/github/stars/mahtoid/DiscordChatExporterPy?style=for-the-badge
-[stars-url]: https://github.com/mahtoid/DiscordChatExporterPy/stargazers
-[issues-shield]: https://img.shields.io/github/issues/mahtoid/DiscordChatExporterPy?style=for-the-badge
-[issues-url]: https://github.com/mahtoid/DiscordChatExporterPy/issues
-[license-shield]: https://img.shields.io/github/license/mahtoid/DiscordChatExporterPy?style=for-the-badge
-[license-url]: https://github.com/mahtoid/DiscordChatExporterPy/blob/master/LICENSE
-[github-url]: https://github.com/mahtoid/DiscordChatExporterPy/
+[language-dom]: https://img.shields.io/github/languages/top/Mantouisyummy/discordchatexporterpy?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Mantouisyummy/DiscordChatExporterPy?style=for-the-badge
+[forks-url]: https://github.com/Mantouisyummy/DiscordChatExporterPy/
+[stars-shield]: https://img.shields.io/github/stars/Mantouisyummy/DiscordChatExporterPy?style=for-the-badge
+[stars-url]: https://github.com/Mantouisyummy/DiscordChatExporterPy/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Mantouisyummy/DiscordChatExporterPy?style=for-the-badge
+[issues-url]: https://github.com/Mantouisyummy/DiscordChatExporterPy/issues
+[license-shield]: https://img.shields.io/github/license/Mantouisyummy/DiscordChatExporterPy?style=for-the-badge
+[license-url]: https://github.com/Mantouisyummy/DiscordChatExporterPy/blob/master/LICENSE
+[github-url]: https://github.com/Mantouisyummy/DiscordChatExporterPy
